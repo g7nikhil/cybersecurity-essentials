@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cyber Security Essentials — Unit 1, Topic 1.1: Basics of Cyber Security. Semester IV study notes.">
+  <title>1.1 Basics of Cyber Security | Cyber Security Essentials</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f3f4f6; --paper:#fff; --ink:#171717; --muted:#555; --line:#dedede; --link:#174f88; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:"Times New Roman",Times,serif; font-size:16px; line-height:1.55; }
+    .toolbar { font-family:Arial,sans-serif; display:flex; align-items:center; justify-content:space-between; gap:12px; max-width:900px; margin:18px auto 0; padding:0 16px; }
+    .toolbar .brand { font-size:13px; color:var(--muted); font-weight:600; }
+    .print-button { border:1px solid #b9bec6; background:var(--paper); color:var(--ink); border-radius:7px; padding:9px 14px; font-size:13px; cursor:pointer; }
+    .print-button:hover { border-color:var(--ink); }
+    main { max-width:900px; margin:14px auto 42px; padding:42px 56px 52px; background:var(--paper); border:1px solid var(--line); box-shadow:0 3px 22px rgba(0,0,0,.035); }
+    .unit-title { font-size:22px; text-align:center; font-weight:bold; margin:0 0 20px; }
+    h1 { font-size:24px; margin:0 0 18px; line-height:1.3; }
+    h2 { font-size:20px; margin:24px 0 8px; line-height:1.3; }
+    h3 { font-size:17px; margin:16px 0 5px; line-height:1.3; }
+    p { margin:0 0 9px; text-align:justify; }
+    .point { margin:0 0 9px; }
+    .point strong { font-weight:700; }
+    .example { margin-top:3px; }
+    .diagram { margin:22px auto 18px; text-align:center; }
+    .diagram img { display:block; width:100%; max-width:680px; height:auto; margin:0 auto; }
+    .diagram-placeholder { display:none; padding:35px 18px; border:2px dashed #999; color:var(--muted); text-align:center; font:14px/1.6 Arial,sans-serif; border-radius:8px; }
+    .diagram-placeholder code { overflow-wrap:anywhere; }
+    .diagram.missing img { display:none; }
+    .diagram.missing .diagram-placeholder { display:block; }
+    @media (prefers-color-scheme:dark) {
+      :root { --bg:#15171b; --paper:#22252b; --ink:#f0f0f0; --muted:#c1c4ca; --line:#454951; --link:#a8cfff; }
+      .print-button { border-color:#6b7280; }
+      .diagram img { background:#fff; }
+    }
+    @media (max-width:650px) {
+      body { font-size:16px; }
+      main { margin:10px 0 0; padding:24px 20px 36px; border-left:0; border-right:0; box-shadow:none; }
+      .toolbar { margin-top:12px; }
+      .unit-title { font-size:20px; }
+      h1 { font-size:22px; }
+      h2 { font-size:19px; }
+      h3 { font-size:17px; }
+      p { text-align:left; }
+    }
+    @page { size:A4; margin:19mm; }
+    @media print {
+      :root { color-scheme:light; --bg:#fff; --paper:#fff; --ink:#000; --muted:#000; --line:#fff; }
+      body { background:#fff; color:#000; font-size:12pt; line-height:1.15; }
+      .toolbar { display:none; }
+      main { max-width:none; margin:0; padding:0; border:0; box-shadow:none; }
+      .unit-title { font-size:16pt; margin-bottom:12pt; }
+      h1 { font-size:16pt; margin-bottom:10pt; }
+      h2 { font-size:14pt; margin:10pt 0 5pt; }
+      h3 { font-size:12pt; margin:8pt 0 3pt; }
+      p { margin-bottom:5pt; text-align:justify; }
+      .point { margin-bottom:5pt; }
+      h1,h2,h3 { break-after:avoid; page-break-after:avoid; }
+      .diagram { break-inside:avoid; page-break-inside:avoid; }
+      .diagram img { max-width:15.5cm; }
+      .diagram-placeholder { border:1px dashed #555; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <span class="brand">Cyber Security Essentials · Semester IV</span>
+    <button class="print-button" type="button" onclick="window.print()">Print / Save PDF</button>
+  </div>
+  <main>
+    <header>
+      <div class="unit-title">Unit 1: Introduction to Cyber Security</div>
+      <h1>1.1 Basics of Cyber Security</h1>
+    </header>
+
+    <section aria-labelledby="intro">
+      <h2 id="intro">1. Introduction to Cyber Security</h2>
+      <p>In today's digital world, computers, smartphones, networks, and the internet are widely used in education, banking, healthcare, business, and communication. These technologies make everyday activities easier and faster, but they also introduce security risks such as data theft, online fraud, unauthorized access, and cyberattacks.</p>
+      <p><strong>Cyber Security</strong> is the practice of protecting computer systems, networks, devices, applications, and digital information from unauthorized access, cyberattacks, damage, theft, and disruption.</p>
+      <p>The main purpose of cyber security is to keep digital systems and information safe, reliable, and accessible to authorized users.</p>
+      <p class="example"><strong>Example:</strong> When a person uses an online banking application, cyber security measures help protect login credentials, account information, and financial transactions from unauthorized access.</p>
+    </section>
+
+    <section aria-labelledby="importance">
+      <h2 id="importance">2. Need and Importance of Cyber Security</h2>
+      <p>Cyber security is essential for individuals, organizations, and governments because most modern activities depend on digital technologies.</p>
+      <p>The major reasons for the importance of cyber security are explained below.</p>
+      <p class="point"><strong>1. Protection of Sensitive Information:</strong> Cyber security protects personal details, passwords, financial records, and confidential business information from unauthorized access, theft, or disclosure.</p>
+      <p>For example, banks use encryption and access controls to protect customer information.</p>
+      <p class="point"><strong>2. Prevention of Cyberattacks:</strong> Cyber security helps prevent, detect, and respond to cyberattacks such as malware infections, phishing, ransomware, and unauthorized access.</p>
+      <p>For example, antivirus software helps identify and block malicious programs.</p>
+      <p class="point"><strong>3. Protection of Privacy:</strong> Cyber security helps prevent the unauthorized collection, use, or disclosure of personal information.</p>
+      <p>For example, hospitals restrict access to patient records to protect medical privacy.</p>
+      <p class="point"><strong>4. Prevention of Financial Loss:</strong> Cyberattacks can cause financial losses through online fraud, stolen banking information, and disruption of business operations.</p>
+      <p>Security measures such as multifactor authentication help reduce the risk of financial fraud.</p>
+      <p class="point"><strong>5. Business Continuity:</strong> Organizations depend on computer systems and networks for daily operations. Cyberattacks and system failures can interrupt important services.</p>
+      <p>Cyber security helps organizations maintain operations and recover from security incidents through backups, monitoring, and recovery planning.</p>
+      <p class="point"><strong>6. Protection of Critical Infrastructure:</strong> Essential services such as electricity, transportation, healthcare, and communication depend on digital systems.</p>
+      <p>Cyber security helps protect these services from attacks that could affect public safety and normal operations.</p>
+    </section>
+
+    <section aria-labelledby="types">
+      <h2 id="types">3. Types of Cyber Security</h2>
+      <p>Cyber security includes several areas, depending on the systems, devices, and information being protected.</p>
+      <h3>3.1 Network Security</h3>
+      <p>Network security protects computer networks and network communication from unauthorized access, misuse, and attacks.</p>
+      <p>It uses technologies such as firewalls, intrusion detection systems, and secure network configurations.</p>
+      <p><strong>Example:</strong> A firewall blocks unauthorized connections to a company's internal network.</p>
+      <h3>3.2 Application Security</h3>
+      <p>Application security protects software and applications from vulnerabilities, unauthorized access, and cyberattacks.</p>
+      <p>It involves secure coding, security testing, authentication, and regular software updates.</p>
+      <p><strong>Example:</strong> A banking application uses secure login methods to protect customer accounts.</p>
+      <h3>3.3 Information and Data Security</h3>
+      <p>Information and data security protect sensitive information from unauthorized access, modification, disclosure, or loss.</p>
+      <p>Common protection methods include encryption, access controls, and data backups.</p>
+      <p><strong>Example:</strong> A hospital uses access permissions to protect confidential patient records.</p>
+      <h3>3.4 Endpoint Security</h3>
+      <p>Endpoint security protects devices such as computers, laptops, smartphones, and servers from cyber threats.</p>
+      <p>It uses antivirus software, device security controls, and regular security updates.</p>
+      <p><strong>Example:</strong> Endpoint protection software detects and blocks malicious programs on a laptop.</p>
+      <h3>3.5 Cloud Security</h3>
+      <p>Cloud security protects information, applications, and services hosted on cloud computing platforms.</p>
+      <p>It includes secure authentication, encryption, access management, and security monitoring.</p>
+      <p><strong>Example:</strong> Multifactor authentication helps protect access to a cloud storage account.</p>
+      <h3>3.6 Internet of Things (IoT) Security</h3>
+      <p>IoT security protects internet-connected devices such as smart cameras, sensors, smart televisions, and smart home appliances.</p>
+      <p>It involves strong authentication, secure communication, and regular firmware updates.</p>
+      <p><strong>Example:</strong> Changing the default password of a smart security camera helps prevent unauthorized access.</p>
+      <!-- IMAGE PLACEHOLDER: Change the src below to the filename you upload to images/ -->
+      <figure class="diagram" id="types-diagram">
+        <img src="images/1.1-types-of-cyber-security.png" alt="Diagram showing six major types of cyber security" onerror="this.parentElement.classList.add('missing')">
+        <div class="diagram-placeholder">Diagram placeholder: <strong>Types of Cyber Security</strong><br>Upload the image to <code>images/1.1-types-of-cyber-security.png</code>, or edit the image <code>src</code> in this HTML file.</div>
+      </figure>
+    </section>
+
+    <section aria-labelledby="challenges">
+      <h2 id="challenges">4. Common Cyber Security Challenges</h2>
+      <p>Despite the availability of security technologies, protecting digital systems remains challenging because cyber threats and technologies continue to change.</p>
+      <p class="point"><strong>1. Evolving Cyber Threats:</strong> Cybercriminals continuously develop new attack methods and modify existing techniques to bypass security measures.</p>
+      <p class="point"><strong>2. Human Errors:</strong> Weak passwords, accidental sharing of confidential information, and unsafe browsing habits can expose systems to security risks.</p>
+      <p class="point"><strong>3. Outdated Software:</strong> Software that does not receive regular security updates may contain vulnerabilities that attackers can exploit.</p>
+      <p class="point"><strong>4. Increasing Number of Connected Devices:</strong> The growing use of smartphones, cloud services, and IoT devices creates additional systems and connections that require protection.</p>
+      <p class="point"><strong>5. Shortage of Skilled Professionals:</strong> Organizations may face difficulties in finding trained cyber security professionals to monitor systems, identify vulnerabilities, and respond to incidents.</p>
+    </section>
+
+    <section aria-labelledby="practices">
+      <h2 id="practices">5. Basic Cyber Security Safety Practices</h2>
+      <p>Individuals and organizations can reduce cyber security risks by following basic security practices.</p>
+      <p class="point"><strong>1. Use Strong Passwords:</strong> Create long, unique passwords for different accounts to reduce the risk of unauthorized access. Avoid using easily guessed information such as names or birthdates.</p>
+      <p class="point"><strong>2. Enable Multifactor Authentication:</strong> Use an additional verification method, such as an authenticator application or security key, to provide extra protection even if a password is stolen.</p>
+      <p class="point"><strong>3. Update Software Regularly:</strong> Keep operating systems, applications, and security software updated to fix known vulnerabilities and improve protection against attacks.</p>
+      <p class="point"><strong>4. Lock Your Devices:</strong> Protect computers and smartphones using passwords, PINs, or biometric locks to prevent unauthorized access.</p>
+      <p class="point"><strong>5. Avoid Suspicious Links and Downloads:</strong> Do not open unknown links, unexpected email attachments, or software downloads from untrusted sources.</p>
+      <p class="point"><strong>6. Maintain Regular Data Backups:</strong> Create regular backups of important information and store them securely to support recovery after data loss or cyberattacks.</p>
+      <p class="point"><strong>7. Log Out from Shared Devices:</strong> Always sign out of personal accounts after using public or shared computers to prevent others from accessing private information.</p>
+      <p class="point"><strong>8. Follow Access Control Practices:</strong> Provide users with only the permissions necessary for their work and restrict unauthorized access to sensitive systems and information.</p>
+    </section>
+  </main>
+</body>
+</html>
